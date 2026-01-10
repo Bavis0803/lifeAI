@@ -1,0 +1,2 @@
+# lifeAI
+NIC homework assignment
