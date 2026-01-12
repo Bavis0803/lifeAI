@@ -9,7 +9,7 @@ NIC homework assignment
 3. **Python 3.8+** với các packages đã cài đặt
 
 ## Các bước chạy code
-### Bước 1: Điền các thông tin trong file .env
+### Bước 1: Điền các thông tin trong file .env, tạo database và chayk file database_schema.sql để tạo các bảng dữ liệu.
 ### Bước 2: Chạy worker celery
 ``` bash
 celery -A celery_app worker --pool=solo --loglevel=info
